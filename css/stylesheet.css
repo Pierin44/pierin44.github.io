@@ -1,8 +1,16 @@
-h1 {
-    padding-left: 50%;
-    padding-right: 50%;
+.h1 {
+    padding-left: auto;
+    padding-right: auto;
 }
 
+.p {
+    padding-left: 25%;
+    padding-right: 75%;
+}
+
+.p2 {
+    padding-left: 75%;
+}
 
 .button{
     background-color: #4CAF50;
@@ -15,7 +23,7 @@ h1 {
     font-size: 16px;
 }
 
-img {
+.img {
     object-fit: cover;
 }
 
