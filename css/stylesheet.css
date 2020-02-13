@@ -1,18 +1,16 @@
-.h1 {
-    padding-left: auto;
-    padding-right: auto;
+h1 {
+    padding-left: 50%;
 }
 
-.p {
+p {
     padding-left: 25%;
-    padding-right: 75%;
 }
 
-.p2 {
+p2 {
     padding-left: 75%;
 }
 
-.button{
+button{
     background-color: #4CAF50;
     border: none;
     color: red;
@@ -23,8 +21,8 @@
     font-size: 16px;
 }
 
-.img {
-    object-fit: cover;
+img {
+    object-fit: fill;
 }
 
 .tooltip {
