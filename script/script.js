@@ -1,7 +1,18 @@
-int (i = 0);
+let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
 
-    for (i < 5 ; ;) {
-        i++;
-        wait(1000);
-    }
+function setUserName() {
+    let myName = prompt('Please enter your name.');
+    localStorage.setItem('name', myName);
+    myHeading.textContent = 'Ich chan kein Purzelbaum' + myName;
+  }
+  if(!localStorage.getItem('name')) {
+    setUserName();
+  } else {
+    let storedName = localStorage.getItem('name');
+    myHeading.textContent = 'Ich chan kein Purzelbaum, ' + storedName;
+  }
 
+  myButton.onclick = function() {
+    setUserName();
+  }

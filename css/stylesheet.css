@@ -1,5 +1,18 @@
+body{
+    background-color: lightgreen;
+}
+
 h1 {
-    padding-left: 50%;
+   text-align: center;
+   color: rgb(179, 17, 117);
+}
+
+div {
+    text-align: center;
+}
+
+.Knopf {
+    text-align: center;
 }
 
 p {
@@ -8,39 +21,11 @@ p {
 
 p2 {
     padding-left: 75%;
+    color: palevioletred;
 }
 
-button{
-    background-color: #4CAF50;
-    border: none;
-    color: red;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: line-block;
-    font-size: 16px;
-}
-
-img {
-    object-fit: fill;
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-
-    position: absolute;
-    z-index: 1;
+button {
+    color: rgb(179, 82, 17);
+    size: 400px 400px; 
 }
 
