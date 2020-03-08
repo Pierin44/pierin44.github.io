@@ -1,10 +1,10 @@
 body{
-    background-color: orange;
+    background-color: rgb(77, 75, 72);
 }
 
 h1 {
    text-align: center;
-   color: rgb(179, 17, 117);
+   color: rgb(29, 139, 158);
 }
 
 div {
@@ -42,8 +42,11 @@ div.desc{
 }
 
 .screensaver{
-    text-align: center;
-    size: 100%;
+    background-image: url("/images/screensaver.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
