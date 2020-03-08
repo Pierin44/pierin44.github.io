@@ -41,7 +41,10 @@ div.desc{
     text-align: center;
 }
 
-
+.screensaver{
+    text-align: center;
+    size: 100%;
+}
 
 .navbar {
     overflow: hidden;
