@@ -48,12 +48,13 @@ div.desc{
     text-align: center;
 }
 
-img{
+div.schoner{
     margin-top: 10px;
-    max-width: 100%;
-    height: auto;
+    width:100%;
+    height:auto;
+    background-image: url(/images/screensaver.gif);
+    background-size: 100% 100%;
     position: center;
-    size: cover;
 }
 
 footer{
