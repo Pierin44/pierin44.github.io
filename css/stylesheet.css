@@ -56,6 +56,26 @@ div {
   padding-right: 10%;
 }
 
+a:link{
+  color: rgb(255,255,255);
+}
+
+a:visited{
+  color: rgb(255,255,255);
+}
+
+a:hover{
+  color: rgb(184, 181, 181);
+}
+
+li{
+  color: rgb(255,255,255);
+  font-size: 16px; 
+  margin: 8px;
+  font-family: "Helvetica Neue";
+  text-align: left;
+}
+
 div.gallery {
     text-align: center;
 }
