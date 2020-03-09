@@ -9,19 +9,19 @@ body{
 
 /*Texteigenschaft für Webseiten Titel*/
 h1 {
-   text-align: center;      
-   color: rgb(29, 139, 158);
-   font-size: 30px;
-   font-weight: bold;
+   text-align: center;      /* dass der Text in der mitte zentriert angezeigt wird*/
+   color: rgb(29, 139, 158);      /*Textfarbe*/
+   font-size: 30px;             /*Text grösse*/
+   font-weight: bold;         /*Fetter Text*/
 }
 
 /*Texteigenschaft für den Text selbst*/
 .Text{
   color: rgb(255,255,255);
   font-size: 16px; 
-  margin: 21px;
-  font-family: "Helvetica Neue";
-  text-align: left;
+  margin: 21px;       /*Abstsnad zwischen den Linien*/
+  font-family: "Helvetica Neue";    /*Font Art*/
+  text-align: left;               /*Textausrichtung*/
 }
 
 /* Texteigenschaft für Titel*/
@@ -30,7 +30,7 @@ h1 {
   font-size: 24px; 
   margin: 21px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: underline;     /*unterstrichener Text*/
   font-family: "Helvetica Neue";
   text-align: left;
 }
@@ -52,7 +52,7 @@ h1 {
   margin: 21px;
   font-family: "Helvetica Neue";
   text-align: center;
-  padding-left: 10%;
+  padding-left: 10%;          /*Abstand zum Rand 10%*/
   padding-right: 10%;
 }
 
@@ -100,6 +100,13 @@ div.desc{
     text-align: center;
 }
 
+/*Gif Eigenschaften*/
+div.gif{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Textgestaltung für Bildtitel der Katzenbilder */
 .BildTitel{
   color: rgb(255,255,255);
@@ -110,11 +117,9 @@ div.desc{
   text-decoration: underline;
 }
 
-.schoner{
-  max-width:100%;
+div.schoner{
+  max-width: fit-content;
   height:auto;
-  position:absolute;
-  margin:auto;
 }
 
 /* Design der "Fusszeile" */
