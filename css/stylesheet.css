@@ -9,7 +9,7 @@ body{
 
 /*Texteigenschaft für Webseiten Titel*/
 h1 {
-   text-align: center;
+   text-align: center;      
    color: rgb(29, 139, 158);
    font-size: 30px;
    font-weight: bold;
