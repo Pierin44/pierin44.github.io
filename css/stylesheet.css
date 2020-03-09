@@ -84,6 +84,7 @@ li{
 
 /*Tabellen Design*/
 table.arten, td, th{
+  background-color: rgb(88, 86, 86);
   text-align: center;
   color: rgb(255,255,255);
   font-size: 16px; 
