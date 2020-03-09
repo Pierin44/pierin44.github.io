@@ -101,10 +101,14 @@ div.desc{
 }
 
 /*Gif Eigenschaften*/
-div.gif{
-    text-align: center;
-    max-width: 100%;
-    height: auto;
+div.saver{
+  text-align: center;
+}
+
+div.saver img{
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Textgestaltung für Bildtitel der Katzenbilder */
@@ -117,9 +121,15 @@ div.gif{
   text-decoration: underline;
 }
 
-div.schoner{
-  max-width: fit-content;
-  height:auto;
+/*Gestaltung Gif*/
+div.gif{
+  text-align: center;
+}
+
+div.gif img{
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Design der "Fusszeile" */
@@ -131,7 +141,11 @@ footer{
   position: absolute;
   bottom: 0;
   width: 100%;
-  
+}
+
+/*Text in der Fusszeile*/
+.Fusszeile{
+  text-align: center;
 }
 
 /* Navigations Leiste Design */
