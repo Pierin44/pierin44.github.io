@@ -1,31 +1,37 @@
+<!--Wiederauftretende Elemente, wie z.B. das Navigationsmenü oder der Head werden nur einmal mit Kommentaren versehen.-->
+
 <!DOCTYPE html>
+<!--Alles was in den Html-Teil gehört-->
 <html>
+    <!--Allgemeine Informationen über die Website-->
     <head>
         <title>Home</title>
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="script" href="script/script.js">
-        <meta charset="UTF-8">
-        <meta name="Pirin" content="Katzenbilder">
-        <meta name="keywords" content="Lustige Katzenbilder">
+        <meta charset="UTF-8">    <!--Damit auch Umlaute angezeigt werden können-->
+        <meta name="title" content="Katzen">    <!--Informationen über Autor, etc. für Screenreader-->
+        <meta name="content" content="Alles über die Katze und lustige Katzenbilder">
         <meta name="author" content="Pierin Candrian">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    <!--Kompatibilität fürs Handy-->
     </head>
 <body>
 
+<!--Titel der Webseite-->
 <h1>Katzen</h1>
  
-
+<!--NAvigations Menü-->
+<nav>
 <div class="navbar">
-  <a href="/index.html" class="active">Home</a>
+  <a href="/index.html" class="active">Home</a>  <!--Links zu den Unterseiten-->
   <a href="/screensaver.html">Screensaver</a>
   <a href="/gifs.html">Gifs</a>
   <div class="dropdown">
-    <button class="dropbtn">Katzenbilder
+    <button class="dropbtn">Katzenbilder    <!--Dropdown Menü-->
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
+    <div class="dropdown-content">          <!--Inhalt vom Dropdown Meü-->
       <a href="/katzenbilder.html">Alle Bilder</a>
-      <a href="/katzenbilder.html#SitzendeKatze">Sitzende Katze</a>
+      <a href="/katzenbilder.html#SitzendeKatze">Sitzende Katze</a>   <!--Link zu der Seite und Postition-->
       <a href="/katzenbilder.html#ErschreckteKatze">Erschreckte Katze</a>
       <a href="/katzenbilder.html#WeinendeKatze">Weinende Katze</a>
       <a href="/katzenbilder.html#NormaleKatze">Normale Katze</a>
@@ -33,14 +39,16 @@
     </div>
   </div>
 </div>
+</nav>
 
-<section>
-  <p class="Titel" id="Katze">Die Katze*</p>
+<!--Text Inhalt-->
+<section>     <!--Text ist in section für bessere Übersicht--->
+  <p class="Titel" id="Katze">Die Katze*</p>    <!--Titel mit ID für Inhaltsverzeichnis-->
   <p class="Text">Die Katze (zoolog. Katzenvieh, die- Pl. die-) ist sehr seltsam, obwohl sie häufig vorkommt. Katzen ernähren sich hauptsächlich von Lasagne und Pizza. Katzen die sich dennoch anders ernähren - was äußerst selten vorkommt - sind Vegetarier. Man erkennt Vegetarier an ihrem grünen Leuchten. Die Katze wird von den meisten Menschen oft mit Kaninchen verwechselt und kann daher nur von Kennern unterschieden werden.
-    Es gibt immer wieder Sichtungen fliegender Katzen im Bereich des heutigen Rumäniens. Fliegende Katzen sind überaus bissig. Sie haben etwa 32 Leben, verteidigen sich mit Intellekt und sind fast unsterblich, außer ihr Kopf wird mit einem Schwert vom Rumpf getrennt. Katzen sind nicht zu verwechseln mit der gemeinen Hauskatze. Eine Katze macht miau, auch "Miausik" genannt.</p>
+    Es gibt immer wieder Sichtungen fliegender Katzen im Bereich des heutigen Rumäniens. Fliegende Katzen sind überaus bissig. Sie haben etwa 32 Leben, verteidigen sich mit Intellekt und sind fast unsterblich, außer ihr Kopf wird mit einem Schwert vom Rumpf getrennt. Katzen sind nicht zu verwechseln mit der gemeinen Hauskatze. Eine Katze macht miau, auch "Miausik" genannt.</p>     <!--Paragraf mit Text-->
   <p class="Titel">Inhalt</p>
-    <ul>
-      <li><a href="#Katze">Die Katze</a></li>
+    <ul>                                                  
+      <li><a href="#Katze">Die Katze</a></li>   <!--Inhaltsverzeichnis mit Links-->
       <li><a href="#Zuordnung">Zuordnung</a></li>
       <li><a href="#Biologisch">Biologische Entwicklung und Namensgebung</a></li>
       <li><a href="#Verwendung">Verwendung der Katze</a></li>
@@ -71,7 +79,7 @@
     Es bei der oben benannten Prozedur jedenfalls sehr wichtig, unbedingt die beschriebene Reihenfolge einzuhalten. Denn Sie könnten nämlich Gefahr laufen, zuerst die Katze an der Tür anzutreffen (theoretisch kam dies in der Praxis bereits zweimal vor). Bei Katzen funktioniet der Weissbrottest jedoch nur sehr eingeschränkt, und wenn Sie vorhaben, stattdessen die alte Dame mitzunehmen - diese miauen und schnurren nur dann, wenn Sie sich vorher eine Florian-Silbereisen-Maske aufsetzen; diese gibt es aber nur bei Woolworth und sind regelmäßig ausverkauft.
     Diese ganze Prozedur offenbart einen nützlichen Nebeneffekt: Wenn man ein Mann ist lernt man auf diese Weise Weissbrot in Stangenform durchaus zu schätzen. Und als Frau sowieso.</p>
   <p class="Titel" id="Bedeutung">Wirtschaftliche Bedeutung der Katze</p>
-  <p class="Untertitel" id="Katzenfutter">Katzenfutter</p>
+  <p class="Untertitel" id="Katzenfutter">Katzenfutter</p>    <!--Untertitel-->
   <p class="Text">Katzen verbringen fast den ganzen Tag mit Fressen und Verdauen, wobei sie beim Futter mitunter sehr wählerisch sind. Also müssen ihre Diener Unmengen an Futter heranschleppen, doch das meiste davon wegwerfen. Die Katzenfutterindustrie ist ob ihres riesigen Bedarfs hauptverantwortlich für die Überfischung der Weltmeere, die Nitratbelastung des Grundwassers durch Schweine, den Klimawandel durch methanfurzende Rinder, die Vogelgrippe durch Massentierhaltung und so weiter.</p>
   <p class="Untertitel" id="Nutztier">Die Katze als Nutztier</p>
   <p class="Text">„Stadtbewohner haben Katzen mit Namen. Wir haben einen Bestand - der je nach Auslastung der Hauptverkehrsstraße variiert.“. In der Tat haben die Katzen in der Landwirtschaft aus praktischen Erwägungen keine Namen: „Wozu soll man einem Haustier einen Namen geben, das nicht kommt, wenn man es ruft?“ Selbst ein Durchnummerieren ist nicht möglich, sie vermehren sich viel zu schnell. Der Nutzen der Bauernhofkatzen ist für Städter kaum zu erkennen, die Abwehr großer Raubtiere wie Bären.</p>
@@ -81,12 +89,13 @@
   <p class="Text">Katzen erkennen auf Anhieb die edelsten Teppiche zum Krallenwetzen, das beste Tropenholz zum Markieren, den teuersten Ledersessel zum Erklettern. Unseriöse Verkäufer verraten sich dadurch, dass sie keine Katzen an ihre Waren lassen.</p>
   <p class="Untertitel" id="Katzenvideos">Katzenvideos</p>
   <p class="Text">Katzenvideos gehören zu den beliebtesten Inhalten im Internet, bilden den größten Datenbestand und erzeugen den größten Datendurchsatz im Nicht-Porno-Bereich. Es lässt sich also sagen, dass diese Videos der wesentliche Grund waren für Entwicklung und Erfolg des Internets an sich sowie von VDSL, LTE, der Cloud und hochauflösenden Bildschirmen.</p>
-  <p class="Text">*Alle Informationen Stammen von <a href="https://www.stupidedia.org/stupi/Katze">Stupidedia</a></p>
+  <p class="Text">*Alle Informationen Stammen von <a href="https://www.stupidedia.org/stupi/Katze">Stupidedia</a></p>   <!--Quellenangabe-->
 
 </section>
 
 </body>
 
+<!--"Fusszeile"-->
 <footer>
  <p class="Fusszeile">Eltern haften für ihre Kinder </p>
  <p class="Fusszeile">Für Risiken und Nebenwirkungen fragen Sie Ihren Arzt oder Apotheker</p>

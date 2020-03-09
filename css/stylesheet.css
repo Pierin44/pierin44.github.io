@@ -1,13 +1,13 @@
+/*Eigenschaften für den Body der Webseite*/
 body{
-    background-color: rgb(77, 75, 72);
-    position: relative;
-    margin: 0;
-    padding-bottom: 6rem;
-    min-height: 100%;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    z-index: 1;
+    background-color: rgb(77, 75, 72);    /*Hintergrund Farbe */
+    position: relative;       /*position*/
+    margin: 0;                /*Platzhalter des Bodys*/
+    padding-bottom: 6rem;     
+    min-height: 100%;         /*mindest Höhe des Bodys*/
 }
 
+/*Texteigenschaft für Webseiten Titel*/
 h1 {
    text-align: center;
    color: rgb(29, 139, 158);
@@ -15,10 +15,7 @@ h1 {
    font-weight: bold;
 }
 
-div {
-    text-align: center;
-}
-
+/*Texteigenschaft für den Text selbst*/
 .Text{
   color: rgb(255,255,255);
   font-size: 16px; 
@@ -27,6 +24,7 @@ div {
   text-align: left;
 }
 
+/* Texteigenschaft für Titel*/
 .Titel{
   color: rgb(255,255,255);
   font-size: 24px; 
@@ -37,6 +35,7 @@ div {
   text-align: left;
 }
 
+/* Texteigenschaft für Untertitel*/
 .Untertitel{
   color: rgb(255,255,255);
   font-size: 20px; 
@@ -46,6 +45,7 @@ div {
   text-align: left;
 }
 
+/* Texteigenschaft Zitat */
 .blockquote{
   color: rgb(255,255,255);
   font-size: 16px; 
@@ -56,18 +56,22 @@ div {
   padding-right: 10%;
 }
 
+/* Allgemeine Linkfarbe*/
 a:link{
   color: rgb(255,255,255);
 }
 
+/*Linkfarbe von geklickten Links */
 a:visited{
   color: rgb(255,255,255);
 }
 
+/*Linkfarbe beim Hovern */
 a:hover{
   color: rgb(184, 181, 181);
 }
 
+/*Text Eigenschaften in der LIste */
 li{
   color: rgb(255,255,255);
   font-size: 16px; 
@@ -76,20 +80,34 @@ li{
   text-align: left;
 }
 
+/*Platzierung der Bilder*/
 div.gallery {
     text-align: center;
 }
 
+/* Bildeigenschaften der Katzenbilder */
 div.gallery img {
     max-width:70%;
     height:auto;
     margin-top: 15px;
 }
 
+/*Texteigenschaften für Bildquelle */
 div.desc{
+    color: rgb(255,255,255);
     margin-top: 5px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+/* Textgestaltung für Bildtitel der Katzenbilder */
+.BildTitel{
+  color: rgb(255,255,255);
+  font-size: 20px; 
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  text-decoration: underline;
 }
 
 .schoner{
@@ -99,6 +117,7 @@ div.desc{
   margin:auto;
 }
 
+/* Design der "Fusszeile" */
 footer{
   background-color: rgb(53, 49, 49);
   color: rgb(255, 255, 255);
@@ -110,6 +129,7 @@ footer{
   
 }
 
+/* Navigations Leiste Design */
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -126,13 +146,13 @@ footer{
     text-decoration: none;
   }
   
-  /* The dropdown container */
+  /* Dropdown Kasten*/
   .dropdown {
     float: left;
     overflow: hidden;
   }
   
-  /* Dropdown button */
+  /* Dropdown Knopf */
   .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -144,12 +164,12 @@ footer{
     margin: 0; 
   }
   
-  /* Add a red background color to navbar links on hover */
+  /* Roter Hintergrund beim Hovern über der Navigations Leiste */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
   
-  /* Dropdown content (hidden by default) */
+  /* Dropdown Inhalts Box */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -159,7 +179,7 @@ footer{
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /* Links im Dropdown Menü */
   .dropdown-content a {
     float: none;
     color: black;
@@ -169,11 +189,12 @@ footer{
     text-align: left;
   }
   
-  /* Add a grey background color to dropdown links on hover */
+  /* Grauer Hintergrund beim Hovern im Dropdown Menü */
   .dropdown-content a:hover {
     background-color: #ddd;
   }
   
+  /* Dropdown anzeigen */
   .dropdown:hover .dropdown-content{
     display: block;
   }
