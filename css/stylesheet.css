@@ -46,7 +46,8 @@ div.desc{
 
 img{
     margin-top: 10px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     position: center;
     size: cover;
 }
