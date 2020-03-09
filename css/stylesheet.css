@@ -88,8 +88,8 @@ table.arten, td, th{
   color: rgb(255,255,255);
   font-size: 16px; 
   padding: 12px;
-  border: 1px solid white;
-  border-collapse: collapse;
+  border: 1px solid white;      /*Umrandungslinie erstellen*/
+  border-collapse: collapse;      /*Umrandungslinien werden zu einer Linie*/
 }
 div.Tabelle{
   margin: 21px;
