@@ -52,6 +52,8 @@ div {
   margin: 21px;
   font-family: "Helvetica Neue";
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 div.gallery {
