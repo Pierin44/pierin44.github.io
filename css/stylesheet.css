@@ -11,27 +11,48 @@ body{
 h1 {
    text-align: center;
    color: rgb(29, 139, 158);
+   font-size: 30px;
+   font-weight: bold;
 }
 
 div {
     text-align: center;
 }
 
-.class{
-    text-align: center;
-}
-.gif{
-    text-align: center;
-}
-
-p {
-    text-align:center;
+.Text{
+  color: rgb(255,255,255);
+  font-size: 16px; 
+  margin: 21px;
+  font-family: "Helvetica Neue";
+  text-align: left;
 }
 
-.schluss {
-    text-align: center;
+.Titel{
+  color: rgb(255,255,255);
+  font-size: 24px; 
+  margin: 21px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Helvetica Neue";
+  text-align: left;
 }
-  
+
+.Untertitel{
+  color: rgb(255,255,255);
+  font-size: 20px; 
+  margin: 21px;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  text-align: left;
+}
+
+.blockquote{
+  color: rgb(255,255,255);
+  font-size: 16px; 
+  margin: 21px;
+  font-family: "Helvetica Neue";
+  text-align: center;
+}
 
 div.gallery {
     text-align: center;
