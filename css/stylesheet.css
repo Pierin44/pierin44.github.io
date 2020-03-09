@@ -82,6 +82,22 @@ li{
   text-align: left;
 }
 
+/*Tabellen Design*/
+table.arten, td, th{
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 16px; 
+  padding: 12px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+div.Tabelle{
+  margin: 21px;
+}
+th{
+  font-weight: bold;
+}
+
 /*Platzierung der Bilder*/
 div.gallery {
     text-align: center;
