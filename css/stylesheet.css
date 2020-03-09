@@ -3,7 +3,7 @@ body{
     background-color: rgb(77, 75, 72);    /*Hintergrund Farbe */
     position: relative;       /*position*/
     margin: 0;                /*Platzhalter des Bodys*/
-    padding-bottom: 6rem;     
+    padding-bottom: 7rem;     
     min-height: 100%;         /*mindest Höhe des Bodys*/
 }
 
@@ -11,7 +11,9 @@ body{
 h1 {
    text-align: center;      /* dass der Text in der mitte zentriert angezeigt wird*/
    color: rgb(29, 139, 158);      /*Textfarbe*/
-   font-size: 30px;             /*Text grösse*/
+   font-size: 50px;             /*Text grösse*/
+   margin-top: 8px;
+   margin-bottom: 12px;
    font-weight: bold;         /*Fetter Text*/
 }
 
