@@ -1,6 +1,10 @@
 body{
-
     background-color: rgb(77, 75, 72);
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 h1 {
