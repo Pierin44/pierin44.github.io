@@ -231,15 +231,10 @@ footer{
   .dropdown:hover .dropdown-content{
     display: block;
   }
-
-  {
-    box-sizing: border-box;
-  }
   
   /* Style inputs */
   .formular{
     text-align: center;
-    
   }
 
   input[type=text], select, textarea {
