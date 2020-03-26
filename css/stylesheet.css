@@ -101,22 +101,29 @@ th{
 
 /*Platzierung der Bilder*/
 div.gallery {
-    text-align: center;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex: 200px;
 }
 
 /* Bildeigenschaften der Katzenbilder */
-div.gallery img {
-    max-width:70%;
-    height:auto;
-    margin-top: 15px;
-}
+
 
 /*Texteigenschaften für Bildquelle */
-div.desc{
+p.desc{
     color: rgb(255,255,255);
-    margin-top: 5px;
-    margin-bottom: 10px;
     text-align: center;
+}
+
+/* Textgestaltung für Bildtitel der Katzenbilder */
+.BildTitel{
+  color: rgb(255,255,255);
+  font-size: 20px; 
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  text-decoration: underline;
 }
 
 /*Gif Eigenschaften*/
@@ -128,16 +135,6 @@ div.saver img{
   margin-top: 15px;
   max-width: 100%;
   height: auto;
-}
-
-/* Textgestaltung für Bildtitel der Katzenbilder */
-.BildTitel{
-  color: rgb(255,255,255);
-  font-size: 20px; 
-  font-weight: bold;
-  font-family: "Helvetica Neue";
-  text-align: center;
-  text-decoration: underline;
 }
 
 /*Gestaltung Gif*/
