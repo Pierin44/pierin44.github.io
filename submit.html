@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Screensaver</title>
+        <title>Submit your own</title>
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="script" href="script/script.js">
           <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -36,7 +36,7 @@
 <nav>
     <div class="navbar">
         <a href="/index.html" class="active">Home</a>
-        <a href="/screensaver.html">Screensaver</a>
+        <a href="/submit.html.html">Submit your own</a>
         <a href="/gifs.html">Gifs</a>
         <div class="dropdown">
           <button class="dropbtn">Katzenbilder
@@ -55,7 +55,37 @@
 </nav>
 
 <section>
-
+<div id="formular">
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Mach mit!</h2>
+      <p>Sende hier dein eigenes lustiges Katzenfoto ein, vielleicht schaffst dus auf die Website...</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="/images/we-want-you.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Dein Name..">
+          <label for="e-Mail">E-Mail</label>
+          <input type="text" id="e-Mail" name="E-Mail" placeholder="Deine E-Mail..">
+          <label for="quelle">Quelle</label>
+          <input type="text" id="quelle" name="Quelle" placeholder="Link zur Quelle..">
+          <label for="jaodernein">Darf das Bild veröffentlicht werden? (Quelle benötigt)</label>
+          <select id="jaodernein" name="Jaodernein">
+            <option value="ja">Ja</option>
+            <option value="nein">Nein</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</div> 
 </section>
 
 </body>
