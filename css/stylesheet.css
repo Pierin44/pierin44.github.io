@@ -100,12 +100,14 @@ th{
 }
 
 /*Platzierung der Bilder*/
-article {
-   background-color: rgb(29, 139, 158);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.grid-container {
+  display: grid;
+  grid-gap: 60px;
+}
 
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 /* Bildeigenschaften der Katzenbilder */
