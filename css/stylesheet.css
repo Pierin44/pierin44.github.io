@@ -100,14 +100,14 @@ th{
 }
 
 /*Platzierung der Bilder*/
-.grid-container {
+.gc {
   display: grid;
   grid-gap: 60px;
 }
 
-.item1 {
+.gi1 {
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 1;
 }
 
 /* Bildeigenschaften der Katzenbilder */
