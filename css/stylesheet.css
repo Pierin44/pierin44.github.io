@@ -288,10 +288,8 @@ footer{
   .dropdown:hover .dropdown-content{
     display: block;
   }
-  
-.forms{
-  text-align: center;
-  max-width: 90%;
-  padding-top: 20px;
-  height: auto;
-}
+  .forms{
+    text-align: center;
+    width: 80%;
+    height: auto;
+  }
