@@ -289,8 +289,6 @@ footer{
     display: block;
   }
   .iframe{
-    text-align: center;
-    padding: 50px;
     width: 640px;
     height: 1200px;
   }
