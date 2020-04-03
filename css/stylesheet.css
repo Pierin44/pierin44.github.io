@@ -288,8 +288,4 @@ footer{
   .dropdown:hover .dropdown-content{
     display: block;
   }
-  .iframe{
-    width: 640px;
-    height: 1200px;
-  }
   
