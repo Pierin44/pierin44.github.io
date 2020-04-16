@@ -218,9 +218,10 @@ th{
   align-content: center;
 }
 
-.gi2.1{
+.gi2-1{
   grid-row: 1;
   grid-column: 1;
+  width: 80%;
 }
 
 /* Bildeigenschaften der Katzenbilder */
