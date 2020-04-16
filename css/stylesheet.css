@@ -1,6 +1,22 @@
+:root{
+  --primary-color: rgb(0,0,0);
+  --bakground-color: rgb(255,255,255);
+  --title-color: rgb(67, 69, 196);
+  --visited-link: rgb(65, 5, 100);
+  --hover-link: rgb(90, 77, 77);
+}
+
+[data-theme="dark"] {
+  --primary-color: rgb(255,255,255);
+  --bakground-color: rgb(39, 37, 37);
+  --title-color: rgb(190, 73, 19);
+  --visited-link: rgb(118, 116, 119);
+  --hover-link: rgb(116, 90, 90);
+}
+
 /*Eigenschaften für den Body der Webseite*/
 body{
-    background-color: rgb(77, 75, 72);    /*Hintergrund Farbe */
+    background-color: var(--bakground-color);    /*Hintergrund Farbe */
     position: relative;       /*position*/
     margin: 0;                /*Platzhalter des Bodys*/
     padding-bottom: 7rem;     
@@ -10,7 +26,7 @@ body{
 /*Texteigenschaft für Webseiten Titel*/
 h1 {
    text-align: center;      /* dass der Text in der mitte zentriert angezeigt wird*/
-   color: rgb(29, 139, 158);      /*Textfarbe*/
+   color: var(--title-color);     /*Textfarbe*/
    font-size: 50px;             /*Text grösse*/
    margin-top: 8px;
    margin-bottom: 12px;
@@ -19,7 +35,7 @@ h1 {
 
 /*Texteigenschaft für den Text selbst*/
 .Text{
-  color: rgb(255,255,255);
+  color: var(--primary-color);
   font-size: 16px; 
   margin: 21px;       /*Abstsnad zwischen den Linien*/
   font-family: "Helvetica Neue";    /*Font Art*/
@@ -28,7 +44,7 @@ h1 {
 
 /* Texteigenschaft für Titel*/
 .Titel{
-  color: rgb(255,255,255);
+  color: var(--primary-color);
   font-size: 24px; 
   margin: 21px;
   font-weight: bold;
@@ -39,7 +55,7 @@ h1 {
 
 /* Texteigenschaft für Untertitel*/
 .Untertitel{
-  color: rgb(255,255,255);
+  color: var(--primary-color);
   font-size: 20px; 
   margin: 21px;
   font-weight: bold;
@@ -49,7 +65,7 @@ h1 {
 
 /* Texteigenschaft Zitat */
 .blockquote{
-  color: rgb(255,255,255);
+  color: var(--primary-color);;
   font-size: 16px; 
   margin: 21px;
   font-family: "Helvetica Neue";
@@ -60,22 +76,22 @@ h1 {
 
 /* Allgemeine Linkfarbe*/
 a:link{
-  color: rgb(255,255,255);
+  color: var(--primary-color);
 }
 
 /*Linkfarbe von geklickten Links */
 a:visited{
-  color: rgb(255,255,255);
+  color: var(--visited-link);
 }
 
 /*Linkfarbe beim Hovern */
 a:hover{
-  color: rgb(184, 181, 181);
+  color: var(--hover-link);
 }
 
 /*Text Eigenschaften in der LIste */
 li{
-  color: rgb(255,255,255);
+  color: var(--primary-color);
   font-size: 16px; 
   margin: 8px;
   font-family: "Helvetica Neue";
@@ -86,12 +102,30 @@ li{
 table.arten, td, th{
   background-color: rgb(88, 86, 86);
   text-align: center;
-  color: rgb(255,255,255);
+  color: var(--primary-color);
   font-size: 16px; 
   padding: 12px;
-  border: 1px solid white;      /*Umrandungslinie erstellen*/
+  border: 1px solid var(--primary-color);      /*Umrandungslinie erstellen*/
   border-collapse: collapse;      /*Umrandungslinien werden zu einer Linie*/
 }
+
+/*Texteigenschaften für Bildquelle */
+p.desc{
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* Textgestaltung für Bildtitel der Katzenbilder */
+.BildTitel{
+  color: var(--primary-color);
+  font-size: 20px; 
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  text-decoration: underline;
+}
+
+
 div.Tabelle{
   margin: 21px;
 }
@@ -185,21 +219,7 @@ img{
   height: auto;
 }
 
-/*Texteigenschaften für Bildquelle */
-p.desc{
-    color: rgb(255,255,255);
-    text-align: center;
-}
 
-/* Textgestaltung für Bildtitel der Katzenbilder */
-.BildTitel{
-  color: rgb(255,255,255);
-  font-size: 20px; 
-  font-weight: bold;
-  font-family: "Helvetica Neue";
-  text-align: center;
-  text-decoration: underline;
-}
 
 /*Gif Eigenschaften*/
 div.saver{
@@ -303,3 +323,62 @@ footer{
     display: block;
   }
   
+
+  /*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;}
+
+  em{
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
