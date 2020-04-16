@@ -5,6 +5,10 @@
   --visited-link: rgb(65, 5, 100);
   --hover-link: rgb(90, 77, 77);
   --tabel-background: rgb(179, 174, 174);
+  --nav-text: rgb(0,0,0);
+  --nav-background: rgb(110, 149, 235);
+  --nav-dropdown: rgb(8, 247, 227);
+  --nav-hover: rgb(102, 224, 228);
 }
 
 [data-theme="dark"] {
@@ -14,6 +18,10 @@
   --visited-link: rgb(118, 116, 119);
   --hover-link: rgb(116, 90, 90);
   --tabel-background: rgb(88, 86, 86);
+  --nav-text: rgb(255,255,255);
+  --nav-background: #333;
+  --nav-dropdown: #f9f9f9;
+  --nav-hover: red;
 }
 
 /*Eigenschaften für den Body der Webseite*/
@@ -258,7 +266,7 @@ footer{
 /* Navigations Leiste Design */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--nav-background);
     font-family: Arial;
 }
   
@@ -266,7 +274,7 @@ footer{
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: var(--nav-text);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -283,7 +291,7 @@ footer{
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: var(--nav-text);
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; 
@@ -292,14 +300,14 @@ footer{
   
   /* Roter Hintergrund beim Hovern über der Navigations Leiste */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: var(--nav-hover);
   }
   
   /* Dropdown Inhalts Box */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: var(--nav-dropdown);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -308,7 +316,7 @@ footer{
   /* Links im Dropdown Menü */
   .dropdown-content a {
     float: none;
-    color: black;
+    color: var(--nav-text);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -317,7 +325,7 @@ footer{
   
   /* Grauer Hintergrund beim Hovern im Dropdown Menü */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: var(--nav-hover);
   }
   
   /* Dropdown anzeigen */
@@ -328,19 +336,21 @@ footer{
 
   /*Simple css to style it like a toggle switch*/
 .theme-switch-wrapper {
+  padding: 14px 16px;
   display: flex;
-  align-items: center;}
+  align-items: right;}
 
   em{
     margin-left: 10px;
     font-size: 1rem;
+    color: var(--bakground-color);
   }
 
 .theme-switch {
   display: inline-block;
-  height: 34px;
+  height: 20px;
   position: relative;
-  width: 60px;
+  width: 50px;
 }
 
 .theme-switch input {
