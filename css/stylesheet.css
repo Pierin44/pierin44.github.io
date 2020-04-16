@@ -338,13 +338,13 @@ footer{
 .theme-switch-wrapper {
   padding: 14px 16px;
   display: flex;
-  align-items: right;}
+}
 
-  em{
-    margin-left: 10px;
-    font-size: 1rem;
-    color: var(--bakground-color);
-  }
+em{
+  margin-left: 15px;
+  font-size: 1rem;
+  color: var(--bakground-color);
+}
 
 .theme-switch {
   display: inline-block;
