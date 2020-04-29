@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+        <title>Open exe</title>
+
+        <script type="text/javascript">
+        function runProgram()
+        {
+            var shell = new ActiveXObject("WScript.Shell");                 
+            var edge = "\"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe\" ";
+            shell.Run(edge);
+        }        
+        </script>
+
+    </head>
+
+
+
+    <body>
+
+        <a href="javascript:runProgram()">Run program</a>
+
+    </body>
+
+</html>
