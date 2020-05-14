@@ -428,7 +428,7 @@ em{
   transition: .4s;
 }
 
-.slider2:before {
+.slider:before {
   background-color: #fff;
   content: "";
   height: 20px;
@@ -437,15 +437,15 @@ em{
   width: 20px;
 }
 
-input:checked + .slider2 {
+input:checked + .slider {
   background-color: #66bb6a;
 }
 
-input:checked + .slider2:before {
+input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-.slider2.round2 {
+.slider.round2 {
   border-radius: 34px;
 }
 
