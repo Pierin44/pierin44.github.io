@@ -31,3 +31,16 @@ if (currentTheme) {
         toggleSwitch.checked = true;
     }
 }
+
+//2
+
+const toggleSwitch = document.querySelector('.theme-switch2 input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }    
+}
