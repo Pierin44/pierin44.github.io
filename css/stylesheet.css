@@ -393,3 +393,62 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/*Simple css to style it like a toggle switch #2*/
+.theme-switch-wrapper2 {
+  padding: 14px 16px;
+  display: flex;
+}
+
+em{
+  margin-left: 15px;
+  font-size: 1rem;
+  color: var(--bakground-color);
+}
+
+.theme-switch2 {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 44px;
+}
+
+.theme-switch2 input {
+  display:none;
+}
+
+.slider2 {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider2:before {
+  background-color: #fff;
+  content: "";
+  height: 20px;
+  position: absolute;
+  transition: .4s;
+  width: 20px;
+}
+
+input:checked + .slider2 {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider2:before {
+  transform: translateX(26px);
+}
+
+.slider2.round2 {
+  border-radius: 34px;
+}
+
+.slider2.round2:before {
+  border-radius: 50%;
+}
