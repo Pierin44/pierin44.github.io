@@ -35,7 +35,7 @@ body{
 
 /*Texteigenschaft für Webseiten Titel*/
 h1 {
-   text-align: center;      /* dass der Text in der mitte zentriert angezeigt wird*/
+   text-align: left;      /* dass der Text in der mitte zentriert angezeigt wird*/
    color: var(--title-color);     /*Textfarbe*/
    font-size: 50px;             /*Text grösse*/
    margin-top: 8px;
