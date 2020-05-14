@@ -34,9 +34,9 @@ if (currentTheme) {
 
 //2
 
-const toggleSwitch = document.querySelector('.theme-switch2 input[type="checkbox"]');
+const toggleSwitch2 = document.querySelector('.theme-switch2 input[type="checkbox2"]');
 
-function switchTheme(e) {
+function switchTheme2(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
     }
