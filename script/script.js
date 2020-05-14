@@ -32,15 +32,3 @@ if (currentTheme) {
     }
 }
 
-//2
-
-const toggleSwitch2 = document.querySelector('.theme-switch2 input[type="checkbox2"]');
-
-function switchTheme2(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }    
-}
