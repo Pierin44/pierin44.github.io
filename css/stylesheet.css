@@ -417,7 +417,7 @@ em{
   display:none;
 }
 
-.slider2 {
+.slider {
   background-color: #ccc;
   bottom: 0;
   cursor: pointer;
@@ -449,6 +449,6 @@ input:checked + .slider:before {
   border-radius: 34px;
 }
 
-.slider2.round2:before {
+.slider.round2:before {
   border-radius: 50%;
 }
