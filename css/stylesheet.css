@@ -27,6 +27,14 @@
 .svg{
   height: 50px;
   width:50px;
+  padding-top: 8px;
+}
+
+.title{
+  text-align: left;
+  width: 80%;
+  max-height: 60px;
+  margin: 4px;
 }
 
 
@@ -46,7 +54,7 @@ h1 {
    font-size: 50px;             /*Text grösse*/
    margin-top: 8px;
    margin-bottom: 12px;
-   padding-left: 20px;
+   padding-left: 17px;
    font-weight: bold;         /*Fetter Text*/
 }
 
