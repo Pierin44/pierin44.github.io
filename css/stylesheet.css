@@ -401,10 +401,10 @@ input:checked + .slider:before {
   display: flex;
 }
 
-em{
+.em{
   margin-left: 15px;
   font-size: 1rem;
-  color: var(--bakground-color);
+  color: var(--primary-color);
 }
 
 .theme-switch2 {
