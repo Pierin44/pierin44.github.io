@@ -24,6 +24,11 @@
   --nav-hover: red;
 }
 
+.svg{
+  
+}
+
+
 /*Eigenschaften für den Body der Webseite*/
 body{
     background-color: var(--bakground-color);    /*Hintergrund Farbe */
