@@ -20,7 +20,7 @@
   --tabel-background: rgb(88, 86, 86);
   --nav-text: rgb(255,255,255);
   --nav-background: #333;
-  --nav-dropdown: #f9f9f9;
+  --nav-dropdown: rgb(80, 57, 57);
   --nav-hover: red;
 }
 
@@ -345,7 +345,7 @@ footer{
 em{
   margin-left: 15px;
   font-size: 1rem;
-  color: var(--bakground-color);
+  color: var(--primary-color);
 }
 
 .theme-switch {
