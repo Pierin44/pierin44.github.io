@@ -40,6 +40,7 @@ h1 {
    font-size: 50px;             /*Text grösse*/
    margin-top: 8px;
    margin-bottom: 12px;
+   padding-left: 20px;
    font-weight: bold;         /*Fetter Text*/
 }
 
